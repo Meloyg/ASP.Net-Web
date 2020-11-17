@@ -1,0 +1,49 @@
+﻿<Properties StartupConfiguration="{0C3C5055-E0A2-43C5-A12C-46B5D33DEC3C}|Default">
+  <MonoDevelop.Ide.ItemProperties.melo PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="melo/Controllers/ProductsController.cs">
+    <Files>
+      <File FileName="melo/Program.cs" Line="1" Column="1" />
+      <File FileName="melo/appsettings.json" />
+      <File FileName="melo/appsettings.Development.json" Line="10" Column="1" />
+      <File FileName="melo/Startup.cs" Line="67" Column="2" />
+      <File FileName="melo/Pages/Index.cshtml" Line="12" Column="25" />
+      <File FileName="melo/wwwroot/css/site.css" Line="155" Column="1" />
+      <File FileName="melo/Pages/Error.cshtml" />
+      <File FileName="melo/Pages/Privacy.cshtml" Line="9" Column="1" />
+      <File FileName="melo/Pages/Index.cshtml.cs" Line="20" Column="60" />
+      <File FileName="melo/Pages/Privacy.cshtml.cs" Line="23" Column="61" />
+      <File FileName="melo/wwwroot/js/site.js" Line="1" Column="1" />
+      <File FileName="melo/Models/Products.cs" Line="13" Column="34" />
+      <File FileName="melo/Services/JsonFileProductService.cs" Line="24" Column="48" />
+      <File FileName="melo/wwwroot/data/Prodcuts.json" Line="21" Column="20" />
+      <File FileName="melo/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="melo/Pages/Shared/_Layout.cshtml" Line="15" Column="120" />
+      <File FileName="melo/Pages/Shared/_ValidationScriptsPartial.cshtml" Line="1" Column="1" />
+      <File FileName="melo/Controllers/ProductsController.cs" Line="13" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="melo" expanded="True">
+            <Node name="melo" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="ProductsController.cs" selected="True" />
+              </Node>
+              <Node name="Pages" expanded="True" />
+              <Node name="wwwroot" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
