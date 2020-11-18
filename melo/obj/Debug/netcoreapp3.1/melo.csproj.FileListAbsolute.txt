@@ -34,3 +34,7 @@
 /Users/adam/Desktop/lati/melo/melo/obj/Debug/netcoreapp3.1/melo.pdb
 /Users/adam/Desktop/lati/melo/melo/obj/Debug/netcoreapp3.1/melo.genruntimeconfig.cache
 /Users/adam/Desktop/lati/melo/melo/obj/Debug/netcoreapp3.1/melo.csproj.CopyComplete
+/Users/adam/Desktop/lati/melo/melo/obj/Debug/netcoreapp3.1/melo.RazorComponent.input.cache
+/Users/adam/Desktop/lati/melo/melo/obj/Debug/netcoreapp3.1/RazorDeclaration/Compoents/ProductList.razor.g.cs
+/Users/adam/Desktop/lati/melo/melo/obj/Debug/netcoreapp3.1/RazorDeclaration/melo.dll
+/Users/adam/Desktop/lati/melo/melo/obj/Debug/netcoreapp3.1/Razor/Compoents/ProductList.razor.g.cs

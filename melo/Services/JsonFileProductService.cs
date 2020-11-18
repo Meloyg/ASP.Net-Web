@@ -33,33 +33,34 @@ namespace melo.Services
             } 
         }
 
-        //public void AddRating(string productId, int rating)
-        //{
-        //    var products = GetProducts();
 
-        //    if (products.First(x => x.Id == productId).Ratings == null)
-        //    {
-        //        products.First(x => x.Id == productId).Ratings = new int[] { rating };
-        //    }
-        //    else
-        //    {
-        //        var ratings = products.First(x => x.Id == productId).Ratings.ToList();
-        //        ratings.Add(rating);
-        //        products.First(x => x.Id == productId).Ratings = ratings.ToArray();
-        //    }
+        public void AddRating(string productId, int rating)
+        {
+            var products = GetProducts();
 
-        //    using (var outputStream = File.OpenWrite(JsonFileName))
-        //    {
-        //        JsonSerializer.Serialize<IEnumerable<Product>>(
-        //            new Utf8JsonWriter(outputStream, new JsonWriterOptions
-        //            {
-        //                SkipValidation = true,
-        //                Indented = true
-        //            }),
-        //            products
-        //        );
-        //    }
-        //}
+            if (products.First(x => x.Id == productId).Ratings == null)
+            {
+                products.First(x => x.Id == productId).Ratings = new int[] { rating };
+            }
+            else
+            {
+                var ratings = products.First(x => x.Id == productId).Ratings.ToList();
+                ratings.Add(rating);
+                products.First(x => x.Id == productId).Ratings = ratings.ToArray();
+            }
+
+            using (var outputStream = File.OpenWrite(JsonFileName))
+            {
+                JsonSerializer.Serialize<IEnumerable<Product>>(
+                    new Utf8JsonWriter(outputStream, new JsonWriterOptions
+                    {
+                        SkipValidation = true,
+                        Indented = true
+                    }),
+                    products
+                );
+            }
+        }
     }
 
 }

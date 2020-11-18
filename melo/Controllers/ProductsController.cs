@@ -28,6 +28,14 @@ namespace melo.Controllers
             return productService.GetProducts();
         }
 
+        [HttpGet]
+        [Route("Rate")]
+        public ActionResult Get([FromQuery] string productId, [FromQuery] int rating)
+        {
+            productService.AddRating(productId, rating);
+            return Ok();
+            
+        }
         
     }
 }
