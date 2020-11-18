@@ -5,22 +5,22 @@
       <File FileName="melo/Program.cs" Line="1" Column="1" />
       <File FileName="melo/appsettings.json" />
       <File FileName="melo/appsettings.Development.json" />
-      <File FileName="melo/Startup.cs" Line="61" Column="113" />
-      <File FileName="melo/Pages/Index.cshtml" Line="19" Column="59" />
+      <File FileName="melo/Startup.cs" />
+      <File FileName="melo/Pages/Index.cshtml" />
       <File FileName="melo/wwwroot/css/site.css" />
       <File FileName="melo/Pages/Error.cshtml" />
       <File FileName="melo/Pages/Privacy.cshtml" />
-      <File FileName="melo/Pages/Index.cshtml.cs" Line="29" Column="32" />
+      <File FileName="melo/Pages/Index.cshtml.cs" />
       <File FileName="melo/Pages/Privacy.cshtml.cs" />
       <File FileName="melo/wwwroot/js/site.js" />
-      <File FileName="melo/Services/JsonFileProductService.cs" Line="53" Column="6" />
-      <File FileName="melo/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="melo/Services/JsonFileProductService.cs" />
+      <File FileName="melo/Properties/launchSettings.json" />
       <File FileName="melo/Pages/Shared/_Layout.cshtml" />
       <File FileName="melo/Pages/Shared/_ValidationScriptsPartial.cshtml" />
-      <File FileName="melo/Controllers/ProductsController.cs" Line="41" Column="2" />
-      <File FileName="melo/Models/Product.cs" Line="1" Column="1" />
-      <File FileName="melo/wwwroot/data/Products.json" Line="10" Column="9" />
-      <File FileName="melo/Compoents/ProductList.razor" Line="5" Column="2" />
+      <File FileName="melo/Controllers/ProductsController.cs" />
+      <File FileName="melo/Models/Product.cs" />
+      <File FileName="melo/wwwroot/data/Products.json" />
+      <File FileName="melo/Compoents/ProductList.razor" Line="43" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -30,8 +30,13 @@
               <Node name="Compoents" expanded="True">
                 <Node name="ProductList.razor" selected="True" />
               </Node>
-              <Node name="Pages" expanded="True" />
-              <Node name="wwwroot" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Index.cshtml" expanded="True" />
+              </Node>
+              <Node name="Services" expanded="True" />
+              <Node name="wwwroot" expanded="True">
+                <Node name="css" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
